@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  background-color: rgb(255, 220, 226);
+  font-family: "AR One Sans", sans-serif;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  background-color: rgb(255, 254, 252);
+  width: 60vw;
+  height: 80vh;
+  margin: 10vh auto;
+  padding: 4rem;
+  border: 3px solid black;
+  box-shadow: 16px 16px 0 rgb(255, 181, 181);
+}
+.div h1 {
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 181, 181);
+  text-decoration-style: wavy;
+}
+.div #input {
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: left;
+  margin: 0.75rem auto 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.div #input .divide {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0 1rem;
+}
+.div input[type=text] {
+  border: 1px solid rgb(255, 181, 181);
+  border-radius: 8px;
+  padding: 0 0.5rem;
+  height: 1.75rem;
+  width: 12rem;
+  margin-top: 0.5rem;
+  font-family: "AR One Sans", sans-serif;
+}
+
+form .gap {
+  margin: 1.75rem 0;
+}
+form .selection {
+  padding: 0.25rem 0;
+}
+
+button {
+  padding: 1rem 1.5rem;
+  background-color: rgb(255, 181, 181);
+  border: 2px solid black;
+  font-family: "AR One Sans", sans-serif;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+#description {
+  text-align: left;
+}/*# sourceMappingURL=style.css.map */

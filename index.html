@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Daily Routine</title>
+</head>
+<body>
+    <section id="firstSection">
+        <div class="div" id="questions">
+            <h1>Daily Routine Checklist</h1>
+            <form autocomplete="off">
+                <div class="gap">
+                    <h3>Tell us your name &#128513;</h3>
+                    <input type="text" name="name" id="name" placeholder="Name / Nickname">    
+                </div>
+                <div class="gap">
+                    <h3>Check the boxes of routine that you have done today.</h3>
+                    <div id="input">
+                        <div class="divide">
+                            <div class="selection">
+                                <input type="checkbox" name="early" id="early">
+                                <label for="early">Wake Up Early</label>
+                            </div>
+                            <div class="selection">
+                                <input type="checkbox" name="hydrate" id="hydrate">
+                                <label for="hydrate">Hydrate</label>   
+                            </div>
+                            <div class="selection">
+                                <input type="checkbox" name="breakfast" id="breakfast">
+                                <label for="breakfast">Nutritious Breakfast</label>    
+                            </div>
+                            <div class="selection">
+                                <input type="checkbox" name="exercise" id="exercise">
+                                <label for="exercise">Regular Exercise</label>    
+                            </div>
+                            <div class="selection">
+                                <input type="checkbox" name="eating" id="eating">
+                                <label for="eating">Healthy Eating</label>    
+                            </div>    
+                        </div>
+                        <div class="divide">
+                            <div class="selection">
+                                <input type="checkbox" name="meditation" id="meditation">
+                                <label for="meditation">Mindfulness and Meditation</label>    
+                            </div>
+                            <div class="selection">
+                                <input type="checkbox" name="sleep" id="sleep">
+                                <label for="sleep">Proper Sleep</label> 
+                            </div>
+                            <div class="selection">
+                                <input type="checkbox" name="goals" id="goals">
+                                <label for="goals">Set Daily Goals</label>    
+                            </div>
+                            <div class="selection">
+                                <input type="checkbox" name="social" id="social">
+                                <label for="social">Social Interaction</label>    
+                            </div>
+                            <div class="selection">
+                                <input type="checkbox" name="relax" id="relax">
+                                <label for="relax">Relaxation and Leisure</label>    
+                            </div>    
+                        </div>
+                    </div>    
+                </div>
+                <button type="submit" class="gap">Complete</button>
+            </form>    
+        </div>    
+    </section>
+    <section class="hidden" id="secondSection">
+        <div class="div" id="result">
+            <h2>
+                <span id="userName"></span> <br>
+                <span id="title"></span>
+            </h2>
+            <h3 id="h3">Want to make your day even better? &#128524;</h3>
+            <ul id="description"></ul>
+            <button id="reset">Go back</button>
+        </div>    
+    </section>
+</body>
+</html>
