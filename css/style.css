@@ -76,4 +76,22 @@ button {
 
 #description {
   text-align: left;
+}
+
+@media only screen and (orientation: portrait) {
+  .div {
+    width: 85vw;
+    box-shadow: 12px 12px 0 rgb(255, 181, 181);
+    padding: 1rem;
+  }
+  #result {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #result #description {
+    padding: 1rem 0;
+  }
+  .flex {
+    display: flex;
+  }
 }/*# sourceMappingURL=style.css.map */

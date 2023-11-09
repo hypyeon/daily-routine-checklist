@@ -73,3 +73,20 @@ button {
 #description {
     text-align: left;
 }
+
+@media only screen and (orientation: portrait) {
+    .div {
+        width: 85vw;
+        box-shadow: 12px 12px 0 $accentColor;
+        padding: 1rem;
+    }
+    #result {
+       height: fit-content;
+        #description {
+            padding: 1rem 0;
+        }
+    }
+    .flex {
+        display: flex;
+    }
+}

@@ -80,6 +80,7 @@ function generateSuggestion(arr) {
         const li = document.createElement("li");
         ul.append(li);
         li.style.listStyle = 'none';
+        li.style.padding = '.25rem';
         const emoji = document.createTextNode("💜 ");
         li.prepend(emoji);
         li.append(item);
