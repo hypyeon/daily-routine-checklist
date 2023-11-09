@@ -67,6 +67,8 @@ button {
     font-family: $primaryFont;
     font-size: 1.25rem;
     cursor: pointer;
+    width: fit-content;
+    margin: 0 auto;
 }
 #description {
     text-align: left;
